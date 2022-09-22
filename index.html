@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/index.61ee8a99.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Hostinger Redesign</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <section class="navBar bg-[#673de6] text-white font-mulish" id="navbar-section">
+        <nav class="flex justify-between items-center py-4 space-x-5 relative">
+            <div class="logo">
+                <svg data-v-7111483a="" width="200" height="30" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg"
+                    fill="white" class="d-block d-sm-none ">
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M30.0743 5.93215H31.9502V14.2408H30.0743V10.7159H26.9238V14.2408H25.0479V5.93215H26.9238V9.10915H30.0743V5.93215Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M36.3299 10.0806C36.3299 10.488 36.3799 10.8557 36.4801 11.1834C36.5803 11.5114 36.7247 11.793 36.9132 12.0287C37.1012 12.2648 37.3319 12.4464 37.6046 12.5741C37.877 12.7024 38.1896 12.7664 38.5425 12.7664C38.887 12.7664 39.1977 12.7024 39.4745 12.5741C39.7508 12.4464 39.9835 12.2648 40.1716 12.0287C40.3599 11.793 40.5045 11.5114 40.6047 11.1834C40.705 10.8557 40.7551 10.488 40.7551 10.0806C40.7551 9.67273 40.705 9.30306 40.6047 8.97127C40.5045 8.63966 40.3599 8.35616 40.1716 8.12011C39.9835 7.88439 39.7508 7.70232 39.4745 7.57474C39.1977 7.44682 38.887 7.38294 38.5425 7.38294C38.1896 7.38294 37.877 7.44883 37.6046 7.5806C37.3319 7.71255 37.1012 7.89646 36.9132 8.13234C36.7247 8.36806 36.5803 8.65173 36.4801 8.98334C36.3799 9.31529 36.3299 9.68094 36.3299 10.0806ZM42.6913 10.0807C42.6913 10.7918 42.5848 11.4175 42.3728 11.9567C42.1601 12.4964 41.8694 12.948 41.5008 13.3115C41.1321 13.6755 40.6931 13.9491 40.1841 14.1328C39.6751 14.3169 39.1278 14.4088 38.5429 14.4088C37.9736 14.4088 37.4367 14.3169 36.9316 14.1328C36.4265 13.9491 35.9855 13.6755 35.6088 13.3115C35.2318 12.948 34.9356 12.4964 34.719 11.9567C34.5026 11.4175 34.3942 10.7918 34.3942 10.0807C34.3942 9.36916 34.5065 8.74365 34.731 8.20431C34.9553 7.66464 35.2581 7.21098 35.6389 6.84332C36.0194 6.47566 36.4605 6.20004 36.9617 6.01612C37.4624 5.83204 37.9897 5.74 38.5429 5.74C39.1119 5.74 39.6489 5.83204 40.1542 6.01612C40.6591 6.20004 41.1 6.47566 41.4768 6.84332C41.8534 7.21098 42.1502 7.66464 42.3666 8.20431C42.5831 8.74365 42.6913 9.36916 42.6913 10.0807Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M47.4082 12.8141C47.6727 12.8141 47.8911 12.7923 48.0635 12.7481C48.2358 12.7043 48.3742 12.6445 48.4783 12.568C48.5823 12.4924 48.6546 12.4025 48.6948 12.2986C48.735 12.1948 48.755 12.0788 48.755 11.9509C48.755 11.6793 48.6266 11.4531 48.3701 11.2736C48.1136 11.0935 47.6727 10.8999 47.0475 10.6917C46.7748 10.5961 46.5023 10.486 46.2297 10.3622C45.9571 10.2385 45.7127 10.0826 45.4963 9.89465C45.28 9.70688 45.1035 9.47904 44.9673 9.21097C44.8309 8.94339 44.7628 8.61781 44.7628 8.23406C44.7628 7.8503 44.835 7.50461 44.9792 7.19697C45.1237 6.88916 45.328 6.62762 45.5926 6.41152C45.8571 6.19558 46.1776 6.03011 46.5544 5.91393C46.9312 5.79825 47.3559 5.73991 47.8291 5.73991C48.3902 5.73991 48.8752 5.80026 49.2842 5.91996C49.6927 6.03984 50.0295 6.17194 50.294 6.31579L49.7531 7.79045C49.5204 7.67058 49.2618 7.56463 48.9775 7.47259C48.6928 7.38088 48.3501 7.33461 47.9495 7.33461C47.5003 7.33461 47.1777 7.39697 46.9813 7.5207C46.7849 7.6446 46.6865 7.83455 46.6865 8.09005C46.6865 8.24211 46.7229 8.37019 46.795 8.4738C46.867 8.57774 46.9694 8.67163 47.1015 8.75562C47.2338 8.83945 47.3862 8.91556 47.5587 8.98329C47.7307 9.05136 47.9212 9.1211 48.1299 9.19303C48.5625 9.35313 48.9393 9.51089 49.2601 9.66681C49.5806 9.82273 49.8473 10.0046 50.0598 10.2123C50.272 10.4201 50.4304 10.664 50.5348 10.9438C50.6387 11.2238 50.691 11.5633 50.691 11.9626C50.691 12.738 50.4183 13.3396 49.8732 13.7671C49.328 14.1949 48.5063 14.4088 47.4082 14.4088C47.0395 14.4088 46.7067 14.3867 46.4101 14.3428C46.1135 14.2985 45.8511 14.2447 45.6225 14.1808C45.3942 14.117 45.1977 14.0491 45.0332 13.9771C44.8689 13.905 44.7307 13.8373 44.6184 13.7731L45.1477 12.2865C45.3959 12.4227 45.7026 12.5444 46.0676 12.652C46.4321 12.7602 46.8792 12.8141 47.4082 12.8141Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M58.9551 5.93219V7.52689H56.4419V14.2408H54.5661V7.52689H52.0527V5.93219H58.9551Z"></path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M61.0386 14.241H62.9145V5.93223H61.0386V14.241Z"></path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M71.3115 14.2409C70.7745 13.2898 70.1934 12.3508 69.5679 11.4233C68.9424 10.496 68.2771 9.62088 67.5719 8.79755V14.2409H65.72V5.93221H67.247C67.5113 6.19576 67.8041 6.51949 68.1249 6.90325C68.4455 7.287 68.7719 7.69674 69.1048 8.1323C69.4374 8.56786 69.7681 9.01952 70.0969 9.48693C70.4254 9.95451 70.7341 10.404 71.0228 10.8357V5.93221H72.8867V14.2409H71.3115Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M79.7557 7.37094C78.8824 7.37094 78.2509 7.61269 77.862 8.0962C77.4732 8.57987 77.279 9.24109 77.279 10.0807C77.279 10.4879 77.3269 10.8579 77.4231 11.1895C77.5195 11.521 77.6637 11.8067 77.8559 12.0466C78.0486 12.2865 78.2889 12.4724 78.5776 12.6043C78.8661 12.7361 79.2026 12.802 79.5874 12.802C79.7958 12.802 79.9743 12.798 80.1228 12.7901C80.2709 12.7822 80.4012 12.7663 80.5134 12.7422V9.85285H82.3893V13.9652C82.1647 14.0532 81.8042 14.1469 81.307 14.2467C80.8101 14.3464 80.1968 14.3967 79.4672 14.3967C78.8421 14.3967 78.2747 14.3006 77.766 14.109C77.2567 13.9169 76.8218 13.6374 76.461 13.2696C76.1007 12.9021 75.8219 12.4503 75.6255 11.9148C75.4288 11.3797 75.3309 10.7681 75.3309 10.0807C75.3309 9.3851 75.4392 8.76965 75.6558 8.23401C75.872 7.69869 76.1683 7.24469 76.5454 6.87318C76.9222 6.50149 77.3649 6.21984 77.8741 6.02805C78.383 5.83608 78.9261 5.73985 79.5034 5.73985C79.8961 5.73985 80.2507 5.76617 80.5675 5.81798C80.8841 5.87012 81.1565 5.92997 81.385 5.99804C81.6137 6.06577 81.8022 6.13568 81.9505 6.20777C82.099 6.27969 82.2047 6.33585 82.2691 6.37576L81.728 7.87423C81.4713 7.73843 81.1767 7.62074 80.8443 7.52065C80.5114 7.42073 80.1488 7.37094 79.7557 7.37094Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M85.0142 14.2409V5.93221H90.6417V7.50277H86.8899V9.13318H90.2208V10.668H86.8899V12.6703H90.9184V14.2409H85.0142Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M95.7309 7.43079C95.5946 7.43079 95.4727 7.43482 95.3643 7.4427C95.2563 7.45091 95.154 7.45896 95.0577 7.46667V9.72058H95.5868C96.2919 9.72058 96.797 9.63307 97.1014 9.45703C97.4062 9.2815 97.5583 8.98157 97.5583 8.55775C97.5583 8.15002 97.404 7.86065 97.0954 7.68831C96.7868 7.5168 96.332 7.43079 95.7309 7.43079ZM95.6233 5.83609C96.8739 5.83609 97.8316 6.05773 98.497 6.5015C99.1623 6.94511 99.4952 7.63449 99.4952 8.56982C99.4952 9.15308 99.3611 9.62703 99.0924 9.99067C98.824 10.3541 98.4371 10.6401 97.932 10.8477C98.1005 11.0558 98.2767 11.2935 98.461 11.5612C98.6453 11.8291 98.8279 12.1089 99.0083 12.4007C99.1885 12.6924 99.3631 12.996 99.5314 13.3115C99.6995 13.6275 99.8559 13.9372 100 14.2408H97.9031C97.7501 13.969 97.5951 13.6934 97.4385 13.4136C97.2815 13.134 97.1209 12.862 96.9556 12.5982C96.7912 12.3343 96.6276 12.0848 96.467 11.8491C96.3058 11.613 96.1447 11.3993 95.9841 11.2071H95.058V14.2408H93.1824V6.05169C93.5911 5.97223 94.014 5.91589 94.4508 5.88421C94.8877 5.85202 95.2784 5.83609 95.6233 5.83609Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.000249566 9.36418V0.000497794L4.72619 2.52047V6.73926L10.9824 6.74227L15.785 9.36418H0.000249566ZM12.2616 5.96706V0L17.115 2.45727V8.78646L12.2616 5.96706ZM12.2616 17.4118V13.2294L5.9572 13.225C5.96308 13.2529 1.07489 10.5612 1.07489 10.5612L17.115 10.6365V20L12.2616 17.4118ZM0 17.4118L0.000168141 11.2928L4.72611 14.0455V19.8689L0 17.4118Z">
+                    </path>
+                </svg>
+            </div>
+            <div class="menu z-10 hidden lg:block" id="menu">
+                <ul class="nav-links h-[98vh] block lg:flex lg:items-center bg-white lg:bg-inherit absolute right-0 left-0 top-[62px] lg:top-0 bottom-0 space-y-5 lg:space-y-0 lg:h-auto text-black lg:text-white lg:relative lg:space-x-8 lg:pr-16 font-medium"
+                    id="nav-links">
+                    <li></li>
+                    <li onclick="showSubList('host')"
+                        class="link relative px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
+                        <span class="flex justify-between w-full">Hosting
+                            <span id="host-icon" class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </span>
+
+
+                        <div id="host"
+                            class="innerList hidden relatived lg:pt-3 lg:absolute top-2 lg:top-8 lg:w-[450px] lg:-left-[180px] lg:text-black rounded-md">
+                            <ul class="space-y-3 py-5 bg-white w-full rounded-sm text-blue-900">
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span>
+                                        <img class="hidden lg:block"
+                                            src="https://assets.hostinger.com/images/hero/icons/shared-hosting-ico-3b9eae97d4.svg"
+                                            alt="">
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Web Hosting
+                                        <p class="text-sm hidden lg:block">For small to medium websites.</p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span>
+                                        <img class="hidden lg:block"
+                                            src="https://assets.hostinger.com/images/hero/icons/cloud-hosting-ico-8b3eacbef9.svg"
+                                            alt="">
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Cloud Hosting
+                                        <p class="text-sm hidden lg:block">For large scale projects.</p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span>
+                                        <img class="hidden lg:block"
+                                            src="https://assets.hostinger.com/images/hero/icons/wordpress-hosting-ico-f260728d34.svg"
+                                            alt="">
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">WordPress Hosting
+                                        <p class="text-sm font-normal hidden lg:block">Optimized solutions for WordPress
+                                            hosting.</p>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li onclick="showSubList('vpn')"
+                        class="link px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
+                        <span class="flex justify-between w-full">
+                            VPS <span id="vpn-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </span>
+
+                        <div id="vpn"
+                            class="innerList hidden relative lg:pt-3 lg:absolute lg:top-8 lg:w-[450px] -left-[30px] lg:-left-[50px] text-black px-5 rounded-md">
+                            <ul class="py-6 px-2 space-y-3 bg-white w-full rounded-sm text-blue-900">
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span>
+                                        <img class="hidden lg:block"
+                                            src="https://assets.hostinger.com/images/hero/icons/vps-hosting-ico-ae5dec82ad.svg"
+                                            alt="">
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">VPS Hosting
+                                        <p class="text-sm hidden lg:block">Dedicated resources to scale.</p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span>
+                                        <img class="hidden lg:block"
+                                            src="https://assets.hostinger.com/images/hero/icons/cyber-panel-vps-hosting-ico-85f6512246.svg"
+                                            alt="">
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">CyberPanel Hosting
+                                        <p class="text-sm hidden lg:block">Control panel with Open/LiteSpeed Webserver.
+                                        </p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span>
+                                        <img class="hidden lg:block"
+                                            src="https://assets.hostinger.com/images/hero/icons/minecraft-hosting-ico-48c44ca8a8.svg"
+                                            alt="">
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Minecraft Server Hosting
+                                        <p class="text-sm font-normal hidden lg:block">Share your Minecraft experience.
+                                        </p>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li onclick="showSubList('email')"
+                        class="link px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
+                        <span class="flex justify-between w-full">
+                            Email <span id="email-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </span>
+
+                        <div id="email"
+                            class="innerList hidden relative -left-[40px] lg:pt-3 lg:absolute lg:top-8 lg:w-[460px] lg:left-[40px] text-black px-5 rounded-md">
+                            <ul class="py-6 px-6 space-y-3 bg-white w-full rounded-sm text-blue-900">
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span class="hidden lg:block"><svg fill="none" height="45" viewBox="0 0 44 45"
+                                            width="44" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m32.5425 22.7615c0-.8155-.0693-1.6009-.2013-2.3523h-10.8413v4.4432h6.1904c-.2666 1.4375-1.0729 2.662-2.2948 3.4813v2.8907h3.7244c2.1733-2.002 3.4226-4.9633 3.4226-8.4629z"
+                                                fill="#4285f4" />
+                                            <path
+                                                d="m25.3969 28.3336c-1.0285.69-2.351 1.0925-3.8969 1.0925-2.9926 0-5.5318-2.019-6.4387-4.7398h-3.8382v2.9782c1.8923 3.7584 5.7827 6.3355 10.2769 6.3355 3.1037 0 5.7173-1.0194 7.6213-2.7757z"
+                                                fill="#34a853" />
+                                            <path
+                                                d="m14.7045 22.4998c0-.7605.1268-1.4963.3568-2.1863v-2.9795h-3.8381c-.7815 1.5538-1.2232 3.3075-1.2232 5.1658s.4417 3.6121 1.2232 5.1659l3.8381-2.9782c-.23-.6914-.3568-1.4271-.3568-2.1877z"
+                                                fill="#fbbc05" />
+                                            <path
+                                                d="m21.5 15.5739c1.6897 0 3.2043.5815 4.3987 1.7197l3.2958-3.2958c-1.9929-1.8583-4.5921-2.9978-7.6945-2.9978-4.4942 0-8.3846 2.577-10.2769 6.3341l3.8382 2.9783c.9069-2.7195 3.4461-4.7385 6.4387-4.7385z"
+                                                fill="#ea4335" />
+                                        </svg>
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Google Workspace Email
+                                        Hosting
+                                        <p class="text-sm hidden lg:block">Get custom email and 30GB of storage.</p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span class="hidden lg:block"><svg fill="none" height="45" viewBox="0 0 44 45"
+                                            width="44" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="9.20638"
+                                                x2="40.7948" y1="34.9857" y2="1.67001">
+                                                <stop offset="0" stop-color="#4312a5" />
+                                                <stop offset=".25638" stop-color="#6233df" />
+                                                <stop offset="1" stop-color="#849bff" />
+                                            </linearGradient>
+                                            <path
+                                                d="m21.5 11c-6.338 0-11.5 5.162-11.5 11.5s5.162 11.5 11.5 11.5h5.75v-2.3h-5.75c-5.0953 0-9.2-4.1047-9.2-9.2s4.1047-9.2 9.2-9.2 9.2 4.1047 9.2 9.2v1.725c0 .9669-.7581 1.725-1.725 1.725s-1.725-.7581-1.725-1.725v-1.725c0-3.162-2.588-5.75-5.75-5.75s-5.75 2.588-5.75 5.75 2.588 5.75 5.75 5.75c1.6256 0 3.091-.6913 4.1396-1.7856.7257 1.0736 1.9528 1.7856 3.3354 1.7856 2.2094 0 4.025-1.8156 4.025-4.025v-1.725c0-6.338-5.162-11.5-11.5-11.5zm0 8.05c1.919 0 3.45 1.531 3.45 3.45s-1.531 3.45-3.45 3.45-3.45-1.531-3.45-3.45 1.531-3.45 3.45-3.45z"
+                                                fill="url(#a)" />
+                                        </svg>
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Hostinger Email Hosting
+                                        <p class="text-sm hidden lg:block">Promote your business with every outreach.
+                                        </p>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li onclick="showSubList('domain')"
+                        class="link px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
+                        <span class="flex justify-between w-full">
+                            Domain <span id="domain-icon" class="d-icon" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </span>
+
+                        <div id="domain"
+                            class="innerList hidden relative lg:absolute -left-[20px] lg:left-[150px] top-1 lg:top-8 lg:w-[450px]  lg:pt-3 text-black px-5 ">
+                            <ul class="py-6 px-2 space-y-3 bg-white w-full rounded-sm text-blue-900 ">
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span class="hidden lg:block">
+                                        <svg fill="none" height="50" viewBox="0 0 44 45" width="44"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="10.2064"
+                                                x2="41.7948" y1="34.9857" y2="1.67001">
+                                                <stop offset="0" stop-color="#4312a5" />
+                                                <stop offset=".25638" stop-color="#6233df" />
+                                                <stop offset="1" stop-color="#849bff" />
+                                            </linearGradient>
+                                            <path
+                                                d="m22.5 11c-3.7478 0-7.074 1.814-9.1753 4.6h-.0247v.0314c-1.4376 1.9198-2.3 4.293-2.3 6.8686 0 6.3377 5.1623 11.5 11.5 11.5s11.5-5.1623 11.5-11.5-5.1623-11.5-11.5-11.5zm3.45 2.9716c3.3754 1.3609 5.75 4.6559 5.75 8.5284 0 2.401-.9193 4.5751-2.4168 6.2104-.2942-.9311-1.1544-1.6104-2.1832-1.6104h-1.15v-3.45c0-.6348-.5152-1.15-1.15-1.15h-5.75v-2.3h1.15c.6348 0 1.15-.5152 1.15-1.15v-2.3h2.3c1.2707 0 2.3-1.0293 2.3-2.3zm-12.4119 6.4665 2.0619 2.0619 3.45 3.45v1.15c0 1.2708 1.0292 2.3 2.3 2.3v2.2214c-4.5474-.5641-8.05-4.4171-8.05-9.1214 0-.7105.0869-1.3984.2381-2.0619z"
+                                                fill="blue" />
+                                        </svg>
+
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Domain Name Search
+                                        <p class="text-sm hidden lg:block">Find the perfect domain name.</p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span class="hidden lg:block">
+                                        <svg fill="none" height="45" viewBox="0 0 44 45" width="44"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="9.63737"
+                                                x2="42.37" y1="34.9379" y2="-1.15381">
+                                                <stop offset="0" stop-color="#4312a5" />
+                                                <stop offset=".25638" stop-color="#6233df" />
+                                                <stop offset="1" stop-color="#849bff" />
+                                            </linearGradient>
+                                            <path
+                                                d="m22.4565 10c-4.013 0-7.5157 2.1913-9.3983 5.4348h2.6537c.9782-1.2087 2.2548-2.1653 3.7406-2.7153-.3402.7913-.6129 1.7153-.8216 2.7153h2.2355c.5207-2.1489 1.2499-3.2609 1.5901-3.2609s1.0695 1.112 1.5901 3.2609h2.2355c-.2087-1-.4825-1.924-.8216-2.7153 1.4848.55 2.7624 1.5066 3.7407 2.7153h2.6537c-1.8826-3.2435-5.3853-5.4348-9.3984-5.4348zm-11.9565 7.6087 1.3502 6.5217h1.4224l.9235-3.7725.9213 3.7725h1.4161l1.3502-6.5217h-1.6347l-.5838 3.6579-.8683-3.6579h-1.2101l-.8704 3.6642-.5775-3.6642zm8.2647 0 1.3502 6.5217h1.4224l.9235-3.7725.9213 3.7725h1.416l1.3503-6.5217h-1.6326l-.5859 3.6579-.8662-3.6579h-1.2122l-.8683 3.6642-.5796-3.6642zm8.2647 0 .898 4.3351c.35-.4609.7584-.8734 1.2356-1.2016l-.4947-3.1335zm3.0868 0-.7091 2.9912c.7217-.4434 1.5522-.7149 2.4457-.7791l-.5265-2.2121zm2.6622 0-.3503 2.193c.5152.0174 1.007.1164 1.4754.2675l.5095-2.4605zm-.5393 4.3478c-2.2239 0-3.2608 1.9457-3.2608 3.2609h2.1739c0-.1794.1891-1.087 1.0869-1.087 1.075 0 1.087 1.0761 1.087 1.087 0 1.1456-2.1739 3.288-2.1739 4.3478h2.1739c0-1.0717 2.1739-2.8022 2.1739-4.3478 0-1.6033-1.2196-3.2609-3.2609-3.2609zm-19.1809 4.3478c1.8826 3.2435 5.3853 5.4348 9.3983 5.4348 2.4555 0 4.7075-.8359 6.526-2.2163.0109-.7522.2964-1.4445.6942-2.1315h-.6984-.8386c-.7837.6913-1.6792 1.2577-2.6792 1.6283.3391-.7913.6108-1.7153.8195-2.7153h-2.2355c-.5207 2.149-1.2499 3.2609-1.5901 3.2609s-1.0673-1.1119-1.588-3.2609h-2.2355c.2087 1 .4825 1.924.8216 2.7153-1.4848-.55-2.7624-1.5066-3.7406-2.7153zm18.094 5.4348v2.1739h2.1739v-2.1739z"
+                                                fill="blue" />
+                                        </svg>
+
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">WHOIS Lookup
+                                        <p class="text-sm hidden lg:block">Lookup tool to find WHOIS information.</p>
+                                    </h2>
+                                </li>
+                                <li
+                                    class="flex space-x-6 scale-95 hover:scale-100 transition-all border-b-2 lg:border-0 pb-2">
+                                    <span class="hidden lg:block">
+
+                                        <svg fill="none" height="45" viewBox="0 0 44 45" width="44"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="9.20093"
+                                                x2="39.2942" y1="33.9429" y2=".533591">
+                                                <stop offset="0" stop-color="#4312a5" />
+                                                <stop offset=".25638" stop-color="#6233df" />
+                                                <stop offset="1" stop-color="#849bff" />
+                                            </linearGradient>
+                                            <path
+                                                d="m16.9474 11c-1.2795 0-2.3158 1.0363-2.3158 2.3158v8.1053c0 1.2794 1.0363 2.3157 2.3158 2.3157h3.4737v3.4737c0 1.2657 1.0501 2.3158 2.3157 2.3158h8.1053c1.2657 0 2.3158-1.0501 2.3158-2.3158v-8.1052c0-1.2657-1.0501-2.3158-2.3158-2.3158h-3.4737v-3.4737c0-1.2795-1.0363-2.3158-2.3158-2.3158zm10.421 8.1053h3.4737v8.1052h-8.1053v-3.4737h2.3158c1.2795 0 2.3158-1.0363 2.3158-2.3157zm-17.3684 4.6315v4.6316c0 1.2657 1.0501 2.3158 2.3158 2.3158h3.4737v2.3158l3.4737-3.4737-3.4737-3.4737v2.3158h-3.4737v-4.6316z"
+                                                fill="blue" />
+                                        </svg>
+                                    </span>
+                                    <h2 class="text-xl font-mulish xs:flex-none font-bold">Domain Transfer
+                                        <p class="text-sm hidden lg:block">Want to transfer domain to Hostinger?</p>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li
+                        class="link flex relative border-[3px] border-blue-900 lg:border-[1px] lg:border-gray-300 ml-5 py-2 lg:py-1 px-10 xs:px-28 sm:px-40 lg:px-6 w-fit rounded-full mt-5 lg:mt-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-700 lg:hover:text-gray-300 font-bold lg:font-medium ">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor" class="w-5 h-5 mt-1 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                            </svg>
+
+                        </span>
+                        <span>Log In</span>
+                    </li>
+                    <li
+                        class="link hidden justify-between lg:flex px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
+                        Cart <span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-for-mobile block lg:hidden pr-6">
+                <svg onclick="menuBarHandle()" id="bar-icon" class="bar-icon w-6 h-6 mt-1 ml-1"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <svg onclick="crossHandle()" id="x-icon" style="display:none;" class="X-icon w-6 h-6 mt-1 ml-1"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+
+
+            </div>
+        </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="bg-[#673de6]" onclick="hideSubList()">
+        <div class="container mx-auto xl:w-[90%] grid grid-cols-12 gap-2 font-mulish pt-10">
+
+            <div
+                class="col-span-12 mlg:col-span-6 text-white px-3 lg:pl-4 lg:pr-0 md:pt-12 pb-12 md:pb-0 text-center mlg:text-left ">
+                <h2 class="text-4xl mlg:text-5xl">Everything You Need to Create a Website
+                </h2>
+                <p class="py-4"> Join 1,278,620 website owners who are building their businesses online.</p>
+                <button type="button"
+                    class="inline-block mt-6 px-12 lg:px-16 py-2 lg:py-4 bg-red-300 text-white font-medium text-lg rounded-full shadow-md hover:bg-red-500 hover:shadow-lg focus:shadow-lg focus:outline-none active:bg-red-700 active:shadow-lg transition duration-200 ease-in-out">Get
+                    started</button>
+                <p class="text-sm my-5 font-sans font-medium">30-day money-back guarantee</p>
+            </div>
+
+            <div class="col-span-12 hidden md:block mlg:col-span-6">
+                <img src="/assets/header.5b6a1abe.webp" class="w-full px-10 mlg:w-[85%] mlg:px-5" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Find Domain -->
+    <section class="mx-auto py-4">
+        <div class="container xl:w-[80%] mx-auto py-10 ">
+
+            <div class="heading text-[#120734] text-center mx-auto w-full md:w-[90%] ">
+                <h3 class="text-[#15044d] text-4xl sm:text-4xl mlg:text-5xl font-mulish px-2">Find the perfect domain
+                    name</h3>
+                <p class="font-normal text-gray-500 px-2 mt-2 mb-3 sm:w-[80%] text-center mx-auto">Enter domain name of
+                    your choice and pick any extension name on the next step (choose between .in, .com, .online, .live,
+                    .store, .info and many more)
+                </p>
+            </div>
+
+
+            <div class="mb-3 mx-auto">
+                <div
+                    class="relative mx-auto w-full xs:w-[90%] md:w-[80%] px-4 sm:px-0 flex mlg:flex-row flex-col mb-4 rounded space-y-4">
+                    <div></div>
+                    <input type="search"
+                        class="relative border-2 font-sans block mx-auto px-5 py-3 w-full  outline-none border-gray-400 text-base font-normal text-gray-700 bg-white rounded-full transition ease-in-out m-0 focus:text-gray-700 focus:bg-white shadow-lg"
+                        placeholder="Type in that perfect domain name
+                        ">
+                    <button
+                        class="py-2 text-xl w-full mlg:w-40 text-white font-medium mlg:ml-2 mx-auto outline-none bg-gray-600 rounded-full">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans -->
+    <section class="bg-gray-100 pt-24 pb-16 ">
+        <div class="xl:w-[80%] pr-10 mx-auto">
+            <div class="heading text-center w-full md:w-[90%] pl-10 mx-auto">
+                <h3 class="text-[#15044d] text-2xl sm:text-3xl mlg:text-4xl font-mulish px-2">All-In-One Web Hosting
+                </h3>
+                <p class="font-normal text-gray-500 px-2 mt-2 mb-3 sm:w-[80%] text-center mx-auto">We prepared the best
+                    web hosting plan for you to start. You will be able to adjust plans as you go - our custom-built
+                    algorithm will provide suggestions based on your usage.
+                </p>
+            </div>
+
+            <div class="container pt-3 mx-auto pl-10 grid md:grid-cols-3 gap-4 lg:gap-x-8 ">
+                <div class="mb-6 lg:mb-0 border-[1px] border-blue-700 rounded-md">
+                    <div class="block rounded-lg shadow-lg bg-white h-full">
+                        <div class="p-6 border-b border-gray-300 text-center">
+                            <p class="uppercase mb-4 text-sm">
+                                <strong class="text-[#15044d]">1 Month</strong>
+                            </p>
+                            <h3 class="text-2xl mb-6">
+                                <strong class="text-4xl text-[#15044d]">&#8377; 459.00</strong>
+                                <!-- <small class="text-gray-500 text-sm">/mon</small> -->
+                            </h3>
+
+                            <h3 class="mb-3"><strong class="text-gray-400 text-xl font-medium">INR</strong>
+                                <strong class="text-gray-400 font-medium text-xl">/month</strong>
+                            </h3>
+
+                            <button type="button"
+                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                style="background-color: hsl(0, 0%, 95%)" data-mdb-ripple="true" data-mdb-ripple="true"
+                                data-ripple-color="primary">
+                                Buy
+                            </button>
+
+                            <p class="text-gray-400 my-3 font-normal">Plan renews at ₹459.00/month on 17/10/2022
+                            </p>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-inside">
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>Unmetered traffic
+                                </li>
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>100 Websites
+                                </li>
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>100 GB SSD Storage
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-6 lg:mb-0 relative border-[1px] border-blue-700 rounded-md">
+                    <div class="absolute -top-3 ml-4">
+                        <span
+                            class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded-full">SAVE
+                            ₹2,760.00</span>
+                    </div>
+                    <div class="block rounded-lg shadow-lg bg-white h-full">
+                        <div class="p-6 border-b border-gray-300 text-center">
+                            <p class="uppercase mb-4 text-sm">
+                                <strong class="text-[#15044d]">12 Month</strong>
+                            </p>
+                            <h3 class="text-2xl mb-6">
+                                <strong class="text-4xl text-[#15044d]">&#8377; 229.00</strong>
+                                <!-- <small class="text-gray-500 text-sm">/mon</small> -->
+                            </h3>
+
+                            <h3 class="mb-3"><strong class="text-gray-400 text-xl font-medium">INR</strong>
+                                <strong class="text-gray-400 font-medium text-xl">/month</strong>
+                            </h3>
+
+                            <button type="button"
+                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                style="background-color: hsl(0, 0%, 95%)">
+                                Buy
+                            </button>
+
+                            <p class="text-gray-400 my-3 font-normal">Plan renews at ₹359.00/month on 17/10/2022
+                            </p>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-inside">
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>Unmetered traffic
+                                </li>
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>100 Websites
+                                </li>
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>100 GB SSD Storage
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-6 lg:mb-0 relative border-[1px] border-blue-700 rounded-md">
+                    <div class="absolute -top-3 ml-4">
+                        <span
+                            class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded-full">SAVE
+                            ₹6,240.00</span>
+                    </div>
+                    <div class="block rounded-lg shadow-lg bg-white h-full">
+                        <div class="p-6 border-b border-gray-300 text-center">
+                            <p class="uppercase mb-4 text-sm">
+                                <strong class="text-[#15044d]">24 Month</strong>
+                            </p>
+                            <h3 class="text-2xl mb-6">
+                                <strong class="text-4xl text-[#15044d]">&#8377; 199.00</strong>
+                                <!-- <small class="text-gray-500 text-sm">/mon</small> -->
+                            </h3>
+
+                            <h3 class="mb-3"><strong class="text-gray-400 text-xl font-medium">INR</strong>
+                                <strong class="text-gray-400 font-medium text-xl">/month</strong>
+                            </h3>
+
+                            <button type="button"
+                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                style="background-color: hsl(0, 0%, 95%)">
+                                Buy
+                            </button>
+
+                            <p class="text-gray-400 my-3 font-normal">Plan renews at ₹359.00/month on 17/10/2022
+                            </p>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-inside">
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>Unmetered traffic
+                                </li>
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>100 Websites
+                                </li>
+                                <li class="mb-4 flex items-center">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                        class="text-green-600 w-4 h-4 mr-2" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg>100 GB SSD Storage
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-full mb-6 lg:mb-0 relative rounded-md">
+                    <div class="absolute -top-3 ml-4 z-10">
+                        <span
+                            class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-green-600 text-[#f3f3f3] shadow-lg rounded-full">SAVE
+                            ₹14,000</span>
+                    </div>
+                    <div
+                        class="best-plan absolute w-full rounded-t-md border-2 border-blue-900 text-xl sm:text-2xl font-mulish text-white py-3 text-center bg-blue-900">
+                        Best Web Hosting</div>
+                    <div class="block rounded-lg mt-4 shadow-lg border-2 border-blue-900 border-t-0 bg-white h-full ">
+                        <div class="p-6 border-b border-gray-300 text-center">
+                            <p class="uppercase mb-4 text-sm">
+                                <strong class="text-[#15044d]">24 Month</strong>
+                            </p>
+                            <h3 class="text-2xl mb-6">
+                                <strong class="text-4xl text-[#15044d]">&#8377; 159.00</strong>
+                                <!-- <small class="text-gray-500 text-sm">/mon</small> -->
+                            </h3>
+
+                            <h3 class="mb-3"><strong class="text-gray-400 text-xl font-medium">INR</strong>
+                                <strong class="text-gray-400 font-medium text-xl">/month</strong>
+                            </h3>
+
+                            <button type="button"
+                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                style="background-color: hsl(0, 0%, 95%)">
+                                Buy
+                            </button>
+
+                            <p class="text-gray-400 my-3 font-normal">Plan renews at ₹359.00/month on 17/10/2022
+                            </p>
+                        </div>
+                        <div class="p-6 grid grid-cols-2 ">
+                            <div class="col-span-2 md:col-span-1 hidden xs:block">
+                                <ol class="list-inside">
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>Unmetered traffic (Unlimited GB)
+                                    </li>
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>100 Websites
+                                    </li>
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>100 GB SSD Storage
+                                    </li>
+                                    <li class="xs:mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>Free Weekly Backups
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="hidden md:block">
+                                <ol class="list-inside">
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>Unlimited Free SSL
+                                    </li>
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>Free Domain
+                                    </li>
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>Free Email
+                                    </li>
+                                    <li class="mb-4 flex items-center">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                            class="text-green-600 w-4 h-4 mr-2" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                            </path>
+                                        </svg>Optimized for WordPress
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white hidden xs:block w-full mt-0 xs:pt-5 pb-5 xs:border-t-2 text-center text-[#673de6] font-mulish ">
+                            <p  onclick="showFeacture('showFeacture')" class="hover:cursor-pointer w-fit mx-auto" id="feacture">See All
+                                Feacture</p>
+                            <p id="see-plan" class="hover:cursor-pointer w-fit mx-auto" style="display: none;">See Plan</p>
+                        </div>
+                        <div id="show-all-feacture" style="display:none;"
+                            class="all-feature hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-5">
+                            <ul class="list-none p-6 space-y-2 sm:border-r-2 border-[#673de6]">
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 100 </strong> &nbsp; Parked domains </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 100 </strong> &nbsp; Subdomains per account </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> Full </strong> &nbsp; DNS Editor </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> Managed </strong> &nbsp; WordPress </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> WordPress </strong> &nbsp; acceleration </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> WordPress </strong> &nbsp; multisite </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> WP-CLI </strong> &nbsp; </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 1-click </strong> &nbsp; autoinstaller </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 1 GB </strong> &nbsp; email storage</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 100 </strong> &nbsp; email mailboxes</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 50 </strong> &nbsp; email aliases</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> 5 Forwarders </strong> &nbsp;</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> Enterprise </strong> &nbsp; Virus scanner</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> Enterprise </strong> &nbsp; SPAM filter</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> WebMail </strong> &nbsp; Access</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> Custom </strong> &nbsp; Email Filters</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> IMAP </strong> &nbsp;/SMTP</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> Special </strong> &nbsp; offers for Fiverr services</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg><strong> FAQ Database </strong> &nbsp;</li>
+                            </ul>
+                            <ul class="list-none p-6 space-y-2 lg:border-r-2 border-[#673de6]">
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>40</strong> &nbsp; Active Processes </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>20</strong> &nbsp; Entry Processes </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>400</strong> &nbsp; 000 Inodes </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Unlimited</strong> &nbsp; Cronjobs </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Auto</strong> &nbsp; Script Installer </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>GIT</strong> &nbsp; support </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>SSH</strong> &nbsp; Access </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Access</strong> &nbsp; Management </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>99</strong> &nbsp; .9% Uptime Guarantee </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Unlimited</strong> &nbsp; FTP accounts </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>20</strong> &nbsp; minutes average issue resolution time </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>24</strong> &nbsp; /7/365 chat and email service </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Knowledge</strong> &nbsp; Base </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Tutorials</strong> &nbsp; </li>
+                                <li class="flex items-baseline"><svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong>Webinars</strong> &nbsp; </li>
+                            </ul>
+                            <ul class="list-none p-6 space-y-2 hidden lg:block">
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> Unlimited </strong> &nbsp; databases</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 3 GB</strong> &nbsp; database size</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> Unlimited </strong> &nbsp; MySQL backup size</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 500 MySQL</strong> &nbsp; connections</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 200 MB</strong> &nbsp; MySQL import size</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 16 MB</strong> &nbsp; MySQL packet size</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 300 </strong> &nbsp; seconds MySQL statement time</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 15 MySQL</strong> &nbsp; user connections</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 60 seconds</strong> &nbsp; MySQL query time</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> HTTP /3</strong></li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> IPv6 </strong> </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 10 MB/s</strong> &nbsp; I/O </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 128 </strong> &nbsp; IOPS </li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 1 CPU </strong> &nbsp; Core</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 1 GB</strong> &nbsp; RAM</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> 6 datacenter</strong> &nbsp; locations</li>
+                                <li class="flex items-baseline"> <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fas" data-icon="check" class="text-green-600 w-4 h-4 mr-2"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z">
+                                        </path>
+                                    </svg> <strong> Dynamic </strong> &nbsp; PHP limits </li>
+                            </ul>
+
+                            <div
+                                id="show-less"
+                                class="col-span-full pt-5 pb-2 xs:border-t-2 text-center text-[#673de6] font-mulish ">
+                                <p onclick="showFeacture('showLss')" class="hover:cursor-pointer w-fit mx-auto" >
+                                    Show less
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Service section  -->
+    <section class="py-3 mb-8">
+        <div class="section p-6 sm:container mx-auto rounded-md">
+            <h3 class="text-3xl text-center font-mulish font-extrabold mt-3 mb-6 text-[#250e69]">Our services include
+            </h3>
+
+            <ul
+                class="list-none grid grid-cols-1 sm:grid-cols-3 gap-3 px-4 sm:px-10 text-xl text-[#15044d] font-medium font-mulish">
+                <li>Free SSL</li>
+                <li>Access Management</li>
+                <li>eCommerce Optimization</li>
+                <li>Free Migration</li>
+                <li>Automated backups</li>
+                <li>DDoS Protection</li>
+                <li>PHP Speed Boost</li>
+                <li>LiteSpeed Cache Plugin</li>
+                <li>One-Click WordPress Installation</li>
+                <li>24/7/365 Tech Support</li>
+                <li>Auto Script Installer</li>
+                <li>99.9% Uptime Guarantee</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section class="bg-[#f3f3f3] pt-16 pb-4">
+        <div class="container mx-auto mb-20 text-gray-700 px-4 ">
+            <div class="text-center max-w-3xl mx-auto">
+                <h3 class="text-3xl font-bold mb-6 text-gray-700">Testimonials</h3>
+                <p class="mb-6 pb-2 md:mb-12">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam
+                    iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum
+                    porro a pariatur veniam.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-6 gap-8">
+                <div
+                    class="col-span-full  md:col-span-4 border-2 border-[#1d035092]  grid xs:grid-cols-2 gap-3 mb-6 md:mb-0 bg-white p-6 rounded-md shadow-md">
+                    <div class="flex border-r-2 border-b-2 border-dashed  border-r-blue-900 border-b-red-700">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(22).jpg"
+                            class="rounded-full shadow-lg w-10 h-10 mx-auto  " />
+                        <div class=" px-1 xs:px-2">
+                            <p class="text-sm text-gray-500">
+                                "Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing."
+                            </p>
+                            <p class="italic">- Anna Morian</p>
+                        </div>
+                    </div>
+                    <div class="flex border-r-2 border-b-2 border-dotted border-b-blue-900 border-r-red-700">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(23).jpg"
+                            class="rounded-full shadow-lg w-10 h-10" />
+                        <div class="px-2">
+                            <p class="text-sm text-gray-500">
+                                "Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing."
+                            </p>
+                            <p class="italic">- Anna Morian</p>
+                        </div>
+                    </div>
+                    <div class="flex border-r-2 border-b-2 border-dotted border-b-blue-900 border-r-red-700">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(24).jpg"
+                            class="rounded-full shadow-lg w-10 h-10" />
+                        <div class="px-2">
+                            <p class="text-sm text-gray-500">
+                                "Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing."
+                            </p>
+                            <p class="italic">- Anna Morian</p>
+                        </div>
+                    </div>
+                    <div class="flex border-r-2 border-b-2 border-dashed  border-r-blue-900 border-b-red-700 p-3">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(25).jpg"
+                            class="rounded-full shadow-lg w-10 h-10" />
+                        <div class="px-2">
+                            <p class="text-sm text-gray-500">
+                                "Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing."
+                            </p>
+                            <p class="italic">- Anna Morian</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-span-full border-2 md:col-span-2 border-[#1d035092] font-normal bg-white rounded-md shadow-md p-6 text-center md:text-start">
+                    <h5 class="font-medium">PROFESSIONAL AND HANDS-ON</h5>
+                    <h3 class="text-3xl font-mulish font-extrabold text-[#2c1658] my-3">24/7 Support</h3>
+                    <h4 class="mb-2 ">Our team of experts will solve technical issues to get your websites up and
+                        running. Anytime.
+                    </h4>
+                    <a class="text-blue-800 underline" href="#">Contact us</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- user friendly -->
+    <section>
+        <h2 class="my-10 text-center text-3xl text-[#1c0f43c9] font-mulish font-medium">User-Friendly Control Panel</h2>
+        <div class="container lg:w-3/4 mx-auto  grid grid-cols-1 sm:grid-cols-6 gap-4">
+            <div class="col-span-4 hidden xl:block">
+                <video autoplay class="play-video-on-scroll hidden xl:block w-full " muted="muted" preload="metadata"
+                    width="80%" height="auto"
+                    data-poster="https://assets.hostinger.com/images/homepage2020/control-panel-section/hpanel-img-b7635fbb82.png"
+                    poster="https://assets.hostinger.com/images/homepage2020/control-panel-section/hpanel-img-b7635fbb82.png">
+                    <source src="https://assets.hostinger.com/videos/homepage2020/user-friendly-cp-2020-7ab2c70b24.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+
+            <div class="col-span-full xl:col-span-2 mx-auto xl:block grid grid-cols-1 md:grid-cols-3  px-10">
+                <div class="p-5 border-b-2 md:border-b-0">
+                    <div class="text-black text-center md:text-left">
+                        <img class="hidden md:block"
+                            src="https://assets.hostinger.com/images/homepage2020/control-panel-section/user-icon-923934a391.svg" />
+                        <h5 class="mt-2 font-medium text-blue-900">Ease of Use</h5>
+                        <p class="paragraph text-sm text-gray-500 mt-3 px-1">Hostinger Panel is
+                            extremely user-friendly and can be used by those with little experience in website
+                            development.</p>
+                    </div>
+                </div>
+                <div class=" p-5 border-b-2 md:border-b-0">
+                    <div class="text-black text-center md:text-left">
+                        <img class="hidden md:block"
+                            src="https://assets.hostinger.com/images/homepage2020/control-panel-section/chart-icon-3472a5b9a8.svg">
+                        <h5 class="mt-2 font-medium text-blue-900">Powerful</h5>
+                        <p class="paragraph text-sm text-gray-500 mt-3 px-1">A wide variety of tools
+                            to satisfy advanced user and website developer needs.</p>
+                    </div>
+                </div>
+                <div class=" p-5">
+                    <div class="text-black text-center md:text-left">
+                        <img class="hidden md:block"
+                            src="https://assets.hostinger.com/images/homepage2020/control-panel-section/wp-icon-9be267d135.svg">
+                        <h5 class="mt-2 font-medium text-blue-900">WordPress Optimized</h5>
+                        <p class="paragraph text-sm text-gray-500 mt-3 px-1">Get more speed, better SEO, visitor
+                            retention and conversions with our custom-built WP optimization stack and LiteSpeed
+                            cache.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="wordpress-made-easy"> -->
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- money back section -->
+    <section>
+        <div class="userFriendly container mx-auto text-center my-16 space-y-4">
+            <h3 class="text-4xl text-[#131871] font-medium">
+                30-Day Money-Back Guarantee
+            </h3>
+            <p>
+                We'll refund your payment if you’re not 100% satisfied with Hostinger. No hassle, no risk.
+            </p>
+            <button
+                class="px-16 py-4 bg-blue-700 text-xl text-white font-mulish font-medium rounded-full hover:shadow-xl transition-all ">Get
+                Started</button>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <section class="bg-[#f3f3f3] pt-10 pb-5">
+        <div class="container mx-auto grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 font-medium">
+            <div class="logo col-span-full lg:col-span-1">
+                <svg data-v-7111483a="" width="200" height="30" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg"
+                    fill="#250e69" fill="white" class="d-block d-sm-none">
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M30.0743 5.93215H31.9502V14.2408H30.0743V10.7159H26.9238V14.2408H25.0479V5.93215H26.9238V9.10915H30.0743V5.93215Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M36.3299 10.0806C36.3299 10.488 36.3799 10.8557 36.4801 11.1834C36.5803 11.5114 36.7247 11.793 36.9132 12.0287C37.1012 12.2648 37.3319 12.4464 37.6046 12.5741C37.877 12.7024 38.1896 12.7664 38.5425 12.7664C38.887 12.7664 39.1977 12.7024 39.4745 12.5741C39.7508 12.4464 39.9835 12.2648 40.1716 12.0287C40.3599 11.793 40.5045 11.5114 40.6047 11.1834C40.705 10.8557 40.7551 10.488 40.7551 10.0806C40.7551 9.67273 40.705 9.30306 40.6047 8.97127C40.5045 8.63966 40.3599 8.35616 40.1716 8.12011C39.9835 7.88439 39.7508 7.70232 39.4745 7.57474C39.1977 7.44682 38.887 7.38294 38.5425 7.38294C38.1896 7.38294 37.877 7.44883 37.6046 7.5806C37.3319 7.71255 37.1012 7.89646 36.9132 8.13234C36.7247 8.36806 36.5803 8.65173 36.4801 8.98334C36.3799 9.31529 36.3299 9.68094 36.3299 10.0806ZM42.6913 10.0807C42.6913 10.7918 42.5848 11.4175 42.3728 11.9567C42.1601 12.4964 41.8694 12.948 41.5008 13.3115C41.1321 13.6755 40.6931 13.9491 40.1841 14.1328C39.6751 14.3169 39.1278 14.4088 38.5429 14.4088C37.9736 14.4088 37.4367 14.3169 36.9316 14.1328C36.4265 13.9491 35.9855 13.6755 35.6088 13.3115C35.2318 12.948 34.9356 12.4964 34.719 11.9567C34.5026 11.4175 34.3942 10.7918 34.3942 10.0807C34.3942 9.36916 34.5065 8.74365 34.731 8.20431C34.9553 7.66464 35.2581 7.21098 35.6389 6.84332C36.0194 6.47566 36.4605 6.20004 36.9617 6.01612C37.4624 5.83204 37.9897 5.74 38.5429 5.74C39.1119 5.74 39.6489 5.83204 40.1542 6.01612C40.6591 6.20004 41.1 6.47566 41.4768 6.84332C41.8534 7.21098 42.1502 7.66464 42.3666 8.20431C42.5831 8.74365 42.6913 9.36916 42.6913 10.0807Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M47.4082 12.8141C47.6727 12.8141 47.8911 12.7923 48.0635 12.7481C48.2358 12.7043 48.3742 12.6445 48.4783 12.568C48.5823 12.4924 48.6546 12.4025 48.6948 12.2986C48.735 12.1948 48.755 12.0788 48.755 11.9509C48.755 11.6793 48.6266 11.4531 48.3701 11.2736C48.1136 11.0935 47.6727 10.8999 47.0475 10.6917C46.7748 10.5961 46.5023 10.486 46.2297 10.3622C45.9571 10.2385 45.7127 10.0826 45.4963 9.89465C45.28 9.70688 45.1035 9.47904 44.9673 9.21097C44.8309 8.94339 44.7628 8.61781 44.7628 8.23406C44.7628 7.8503 44.835 7.50461 44.9792 7.19697C45.1237 6.88916 45.328 6.62762 45.5926 6.41152C45.8571 6.19558 46.1776 6.03011 46.5544 5.91393C46.9312 5.79825 47.3559 5.73991 47.8291 5.73991C48.3902 5.73991 48.8752 5.80026 49.2842 5.91996C49.6927 6.03984 50.0295 6.17194 50.294 6.31579L49.7531 7.79045C49.5204 7.67058 49.2618 7.56463 48.9775 7.47259C48.6928 7.38088 48.3501 7.33461 47.9495 7.33461C47.5003 7.33461 47.1777 7.39697 46.9813 7.5207C46.7849 7.6446 46.6865 7.83455 46.6865 8.09005C46.6865 8.24211 46.7229 8.37019 46.795 8.4738C46.867 8.57774 46.9694 8.67163 47.1015 8.75562C47.2338 8.83945 47.3862 8.91556 47.5587 8.98329C47.7307 9.05136 47.9212 9.1211 48.1299 9.19303C48.5625 9.35313 48.9393 9.51089 49.2601 9.66681C49.5806 9.82273 49.8473 10.0046 50.0598 10.2123C50.272 10.4201 50.4304 10.664 50.5348 10.9438C50.6387 11.2238 50.691 11.5633 50.691 11.9626C50.691 12.738 50.4183 13.3396 49.8732 13.7671C49.328 14.1949 48.5063 14.4088 47.4082 14.4088C47.0395 14.4088 46.7067 14.3867 46.4101 14.3428C46.1135 14.2985 45.8511 14.2447 45.6225 14.1808C45.3942 14.117 45.1977 14.0491 45.0332 13.9771C44.8689 13.905 44.7307 13.8373 44.6184 13.7731L45.1477 12.2865C45.3959 12.4227 45.7026 12.5444 46.0676 12.652C46.4321 12.7602 46.8792 12.8141 47.4082 12.8141Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M58.9551 5.93219V7.52689H56.4419V14.2408H54.5661V7.52689H52.0527V5.93219H58.9551Z"></path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M61.0386 14.241H62.9145V5.93223H61.0386V14.241Z"></path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M71.3115 14.2409C70.7745 13.2898 70.1934 12.3508 69.5679 11.4233C68.9424 10.496 68.2771 9.62088 67.5719 8.79755V14.2409H65.72V5.93221H67.247C67.5113 6.19576 67.8041 6.51949 68.1249 6.90325C68.4455 7.287 68.7719 7.69674 69.1048 8.1323C69.4374 8.56786 69.7681 9.01952 70.0969 9.48693C70.4254 9.95451 70.7341 10.404 71.0228 10.8357V5.93221H72.8867V14.2409H71.3115Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M79.7557 7.37094C78.8824 7.37094 78.2509 7.61269 77.862 8.0962C77.4732 8.57987 77.279 9.24109 77.279 10.0807C77.279 10.4879 77.3269 10.8579 77.4231 11.1895C77.5195 11.521 77.6637 11.8067 77.8559 12.0466C78.0486 12.2865 78.2889 12.4724 78.5776 12.6043C78.8661 12.7361 79.2026 12.802 79.5874 12.802C79.7958 12.802 79.9743 12.798 80.1228 12.7901C80.2709 12.7822 80.4012 12.7663 80.5134 12.7422V9.85285H82.3893V13.9652C82.1647 14.0532 81.8042 14.1469 81.307 14.2467C80.8101 14.3464 80.1968 14.3967 79.4672 14.3967C78.8421 14.3967 78.2747 14.3006 77.766 14.109C77.2567 13.9169 76.8218 13.6374 76.461 13.2696C76.1007 12.9021 75.8219 12.4503 75.6255 11.9148C75.4288 11.3797 75.3309 10.7681 75.3309 10.0807C75.3309 9.3851 75.4392 8.76965 75.6558 8.23401C75.872 7.69869 76.1683 7.24469 76.5454 6.87318C76.9222 6.50149 77.3649 6.21984 77.8741 6.02805C78.383 5.83608 78.9261 5.73985 79.5034 5.73985C79.8961 5.73985 80.2507 5.76617 80.5675 5.81798C80.8841 5.87012 81.1565 5.92997 81.385 5.99804C81.6137 6.06577 81.8022 6.13568 81.9505 6.20777C82.099 6.27969 82.2047 6.33585 82.2691 6.37576L81.728 7.87423C81.4713 7.73843 81.1767 7.62074 80.8443 7.52065C80.5114 7.42073 80.1488 7.37094 79.7557 7.37094Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M85.0142 14.2409V5.93221H90.6417V7.50277H86.8899V9.13318H90.2208V10.668H86.8899V12.6703H90.9184V14.2409H85.0142Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M95.7309 7.43079C95.5946 7.43079 95.4727 7.43482 95.3643 7.4427C95.2563 7.45091 95.154 7.45896 95.0577 7.46667V9.72058H95.5868C96.2919 9.72058 96.797 9.63307 97.1014 9.45703C97.4062 9.2815 97.5583 8.98157 97.5583 8.55775C97.5583 8.15002 97.404 7.86065 97.0954 7.68831C96.7868 7.5168 96.332 7.43079 95.7309 7.43079ZM95.6233 5.83609C96.8739 5.83609 97.8316 6.05773 98.497 6.5015C99.1623 6.94511 99.4952 7.63449 99.4952 8.56982C99.4952 9.15308 99.3611 9.62703 99.0924 9.99067C98.824 10.3541 98.4371 10.6401 97.932 10.8477C98.1005 11.0558 98.2767 11.2935 98.461 11.5612C98.6453 11.8291 98.8279 12.1089 99.0083 12.4007C99.1885 12.6924 99.3631 12.996 99.5314 13.3115C99.6995 13.6275 99.8559 13.9372 100 14.2408H97.9031C97.7501 13.969 97.5951 13.6934 97.4385 13.4136C97.2815 13.134 97.1209 12.862 96.9556 12.5982C96.7912 12.3343 96.6276 12.0848 96.467 11.8491C96.3058 11.613 96.1447 11.3993 95.9841 11.2071H95.058V14.2408H93.1824V6.05169C93.5911 5.97223 94.014 5.91589 94.4508 5.88421C94.8877 5.85202 95.2784 5.83609 95.6233 5.83609Z">
+                    </path>
+                    <path data-v-7111483a="" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.000249566 9.36418V0.000497794L4.72619 2.52047V6.73926L10.9824 6.74227L15.785 9.36418H0.000249566ZM12.2616 5.96706V0L17.115 2.45727V8.78646L12.2616 5.96706ZM12.2616 17.4118V13.2294L5.9572 13.225C5.96308 13.2529 1.07489 10.5612 1.07489 10.5612L17.115 10.6365V20L12.2616 17.4118ZM0 17.4118L0.000168141 11.2928L4.72611 14.0455V19.8689L0 17.4118Z">
+                    </path>
+                </svg>
+                <p class="p-6 text-[#362c5595] font-normal ">
+                    We are a web hosting company with a mission to help everyone who goes online succeed.
+                    We accomplish this by continuously developing server technology, giving expert assistance, and
+                    ensuring a flawless online website hosting experience.
+                </p>
+            </div>
+
+            <div class="col-span-1 p-6 mt-6 lg:p-0 lg:mt-0">
+                <ul class="space-y-2">
+                    <li class="mb-6 text-[#250e69]"> <strong>Web Hosting</strong></li>
+                    <li>VPS Hosting</li>
+                    <li>Minecraft Server Hosting</li>
+                    <li>CyberPanel Hosting</li>
+                    <li>Cloud Hosting</li>
+                    <li>WordPress Hosting</li>
+                    <li>Email Hosting</li>
+                    <li>CMS Hosting</li>
+                    <li>Ecommerce Hosting</li>
+                    <li>Free Web Hosting</li>
+                    <li>Online Store</li>
+                    <li>Website Builder</li>
+                    <li>Buy Hosting</li>
+                </ul>
+            </div>
+            <div class="col-span-1 p-6 mt-6 lg:p-0 lg:mt-0">
+                <ul class="space-y-2">
+                    <li class="mb-6 text-[#250e69]"> <strong>DOMAIN</strong>
+                    </li>
+                    <li>
+                        Domain Name Search
+                    </li>
+                    <li>
+                        Domain Transfer
+                    </li>
+                    <li>
+                        Free Domain Name
+                    </li>
+                    <li>
+                        XYZ Domain
+                    </li>
+                    <li>
+                        Cheap Domains
+                    </li>
+                    <li>
+                        Domain Extensions
+                    </li>
+                    <li>
+                        WHOIS Lookup
+                    </li>
+                    <li>
+                        Free SSL Certificate
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-span-1 p-6 mt-6 lg:p-0 lg:mt-0">
+                <ul class="space-y-2">
+                    <li class="mb-6 text-[#250e69]"> <strong>INFORMATION</strong> </li>
+                    <li>Migrate to Hostinger</li>
+                    <li>System Status</li>
+                    <li>Affiliate Program</li>
+                    <li>Payment Methods</li>
+                    <li>Rewards</li>
+                    <li>Reviews</li>
+                    <li>Pricing</li>
+                    <li>Sitemap</li>
+                    <li class=" pt-5 pb-2 text-[#250e69]"> <strong> LEGAL </strong></li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+
+            </div>
+            <div class="col-span-1 p-6 mt-6 lg:p-0 lg:mt-0">
+                <ul class="space-y-2">
+                    <li class="mb-6 text-[#250e69]"> <strong>COMPANY</strong></li>
+                    <li>About Hostinger</li>
+                    <li>Our Technology</li>
+                    <li>Roadmap</li>
+                    <li>Customer Care</li>
+                    <li>Blog</li>
+                    <li class=" pt-5 pb-2 text-[#250e69]"> <strong>HELP</strong> </li>
+                    <li>Tutorials</li>
+                    <li>Knowledge Base</li>
+                    <li>Report Online Abuse</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="copy-right container mx-auto mt-12 px-3 grid grid-cols-6 border-t-2 border-t-gray-300 py-4">
+            <p class="col-span-full mlg:col-span-4">© 2004-2022 hostinger.in -
+                India’s #1 Web Hosting &amp; Domains provider.</p>
+            <p class="col-span-full mlg:col-span-2 mlg:text-center">Prices are listed without VAT</p>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
