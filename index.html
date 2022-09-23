@@ -59,7 +59,7 @@
                     <li onclick="showSubList('host')"
                         class="link relative px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
                         <span class="flex justify-between w-full">Hosting
-                            <span id="host-icon" class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            <span id="host-icon" class="transition-all"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -112,7 +112,7 @@
                     <li onclick="showSubList('vpn')"
                         class="link px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
                         <span class="flex justify-between w-full">
-                            VPS <span id="vpn-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            VPS <span id="vpn-icon" class="transition-all"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -164,7 +164,7 @@
                     <li onclick="showSubList('email')"
                         class="link px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
                         <span class="flex justify-between w-full">
-                            Email <span id="email-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            Email <span id="email-icon" class="transition-all" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -225,7 +225,7 @@
                     <li onclick="showSubList('domain')"
                         class="link px-6 lg:px-0 text-lg lg:text-[15px] font-mulish hover:cursor-pointer hover:text-gray-300 font-bold lg:font-medium ">
                         <span class="flex justify-between w-full">
-                            Domain <span id="domain-icon" class="d-icon" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            Domain <span id="domain-icon" class="d-icon transition-all" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="2.5" stroke="currentColor" class="w-5 h-5 mt-1 ml-1">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -423,9 +423,8 @@
                             </h3>
 
                             <button type="button"
-                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
-                                style="background-color: hsl(0, 0%, 95%)" data-mdb-ripple="true" data-mdb-ripple="true"
-                                data-ripple-color="primary">
+                                class="inline-block px-6 py-2.5 bg-[#f3f3f3] hover:bg-[#b8e2e2d2] text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700transition duration-150 ease-in-out w-full"
+                                >
                                 Buy
                             </button>
 
@@ -487,8 +486,8 @@
                             </h3>
 
                             <button type="button"
-                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
-                                style="background-color: hsl(0, 0%, 95%)">
+                                class="inline-block px-6 py-2.5 bg-[#f3f3f3] hover:bg-[#b8e2e2d2] bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                >
                                 Buy
                             </button>
 
@@ -550,8 +549,8 @@
                             </h3>
 
                             <button type="button"
-                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
-                                style="background-color: hsl(0, 0%, 95%)">
+                                class="inline-block px-6 py-2.5  bg-[#f3f3f3] hover:bg-[#b8e2e2d2] text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                >
                                 Buy
                             </button>
 
@@ -616,8 +615,8 @@
                             </h3>
 
                             <button type="button"
-                                class="inline-block px-6 py-2.5 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
-                                style="background-color: hsl(0, 0%, 95%)">
+                                class="inline-block px-6 py-2.5  bg-[#f3f3f3] hover:bg-[#b8e2e2d2] text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out w-full"
+                                >
                                 Buy
                             </button>
 
