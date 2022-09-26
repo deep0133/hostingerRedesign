@@ -12,7 +12,6 @@ const showMenu = (data)=>{
     }
 }
 
-
 const menuBarHandle = ()=>{
     document.getElementById("bar-icon").style.display="none"
     document.getElementById("x-icon").style.display="block";
